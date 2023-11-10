@@ -1,0 +1,33 @@
+plugins {
+    id 'io.freefair.lombok' version '8.+'
+    id 'eclipse'
+    id 'java'
+}
+
+version = 'REPLACE THIS'
+group = 'REPLACE THIS'
+description = 'REPLACE THIS'
+
+lombok.version = "1.18.30"
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'sonatype-snapshots'
+        url = 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+
+}

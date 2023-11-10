@@ -1,0 +1,36 @@
+# Common:
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.7z binary
+*.bz2 binary
+*.cur binary
+*.eot binary
+*.ez binary
+*.fla binary
+*.flv binary
+*.gif binary
+*.gz binary
+*.jar binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.mov binary
+*.mp3 binary
+*.mp4 binary
+*.pdf binary
+*.png binary
+*.pyc binary
+*.swf binary
+*.swp binary
+*.ttf binary
+*.wav binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
+# IntelliJ IDEA:
+/.settings/* text eol=auto
