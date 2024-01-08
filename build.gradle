@@ -4,9 +4,8 @@ plugins {
     id 'java'
 }
 
-version = 'REPLACE THIS'
-group = 'REPLACE THIS'
-description = 'REPLACE THIS'
+version = '1.0.0'
+group = 'gdn.rom'
 
 lombok.version = "1.18.30"
 
@@ -29,5 +28,6 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 dependencies {
-
+    implementation 'com.electronwill.night-config:toml:3.6.7'
+    implementation 'org.tinylog:tinylog-api:2.6.2'
 }
